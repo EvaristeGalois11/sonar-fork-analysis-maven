@@ -9,5 +9,16 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>swap-case</artifactId>
+    <artifactId>composite</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.example.sonar-fork-analysis</groupId>
+            <artifactId>fizzbuzz</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.example.sonar-fork-analysis</groupId>
+            <artifactId>swap-case</artifactId>
+        </dependency>
+    </dependencies>
 </project>

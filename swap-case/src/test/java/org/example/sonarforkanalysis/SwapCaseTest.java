@@ -13,12 +13,12 @@ class SwapCaseTest {
 
     @MethodSource
     @ParameterizedTest
-    void swapCase(String str, String expected) {
+    void swapCaseTest(String str, String expected) {
         var result = swapCase.swapCase(str);
         assertEquals(expected, result);
     }
 
-    public static List<Arguments> swapCase() {
+    public static List<Arguments> swapCaseTest() {
         return List.of(
                 Arguments.of("string", "STRING"),
                 Arguments.of("String", "sTRING"),
