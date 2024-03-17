@@ -19,7 +19,8 @@ class FizzBuzzTest {
     }
 
     public static List<Arguments> fizzBuzzTest() {
-        return List.of(Arguments.of(0, "FizzBuzz"),
+        return List.of(
+                Arguments.of(0, "FizzBuzz"),
                 Arguments.of(1, ""),
                 Arguments.of(3, "Fizz"),
                 Arguments.of(5, "Buzz"),
